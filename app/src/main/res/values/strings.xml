@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MidasChallengeApp</string>
     <string name="review_hint">리뷰를 남겨주세요.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

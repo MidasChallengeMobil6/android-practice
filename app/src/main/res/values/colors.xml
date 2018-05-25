@@ -7,4 +7,6 @@
 
     <color name="ratingyellow">#FFFF00</color>
     <color name="ratingsecondarygray">#CCCCCC</color>
+    <color name="floatingpink">#FF007F</color>
+    <color name="white">#FFFFFF</color>
 </resources>
