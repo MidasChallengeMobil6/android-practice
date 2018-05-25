@@ -4,6 +4,7 @@ package com.chaeeun.midaschallengeapp.DetailActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -37,6 +38,8 @@ public class Detail4Fragment extends Fragment {
         LinearLayoutManager manager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(adapter);
+        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(getContext(), new LinearLayoutManager(view.getContext()).getOrientation());// 구분선 넣기
+        recyclerView.addItemDecoration(dividerItemDecoration);
 
         Button button = (Button)view.findViewById(R.id.review_btn);
         button.setOnClickListener(new View.OnClickListener() {

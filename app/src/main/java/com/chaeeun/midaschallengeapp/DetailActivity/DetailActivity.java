@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.chaeeun.midaschallengeapp.R;
@@ -25,10 +26,13 @@ public class DetailActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar)findViewById(R.id.menu_toolbar);
         setSupportActionBar(toolbar);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("(강추) 아기 신발 만들기 강의");
+        TextView detail_title_tv = (TextView)findViewById(R.id.detail_title_tv);
+        detail_title_tv.setText("(강추) 아기 신발 만들기 강의");
 
+
+        ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+
 
         TabLayout tabs = (TabLayout)findViewById(R.id.menu_tab);
         tabs.addTab(tabs.newTab().setText("수업소개"));

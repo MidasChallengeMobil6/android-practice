@@ -35,20 +35,21 @@
             android:layout_gravity="center_horizontal"
             android:text="리뷰 평가"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="32dp"/>
+            android:textSize="28dp"/>
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4.9"
-                android:textSize="30dp"
+                android:textSize="26dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:layout_marginRight="12dp"/>
 
@@ -81,23 +82,23 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_gravity="center"
-                    android:layout_marginTop="8dp"
                     android:text="커리큘럼"
-                    android:textSize="20dp"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="16dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     />
 
                 <android.support.v7.widget.AppCompatRatingBar
                     android:id="@+id/curriculum_ratingbar"
                     style="?android:attr/ratingBarStyleIndicator"
+                    android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="right"
+                    android:gravity="center_horizontal"
                     android:isIndicator="true"
                     android:numStars="5"
+                    android:progressTint="@color/ratingyellow"
                     android:rating="5"
                     android:stepSize="0.1"
-                    android:progressTint="@color/ratingyellow"
                     android:secondaryProgressTint="@color/ratingsecondarygray"
                     />
             </LinearLayout>
@@ -112,19 +113,18 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left|center_vertical"
-                    android:layout_marginTop="8dp"
                     android:text="준비성"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:layout_weight="1"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     />
 
                 <android.support.v7.widget.AppCompatRatingBar
                     android:id="@+id/ready_ratingbar"
                     style="?android:attr/ratingBarStyleIndicator"
+                    android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
                     android:gravity="center_horizontal"
                     android:isIndicator="true"
                     android:numStars="5"
@@ -145,15 +145,15 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left|center_vertical"
-                    android:layout_marginTop="8dp"
                     android:text="시간준수"
-                    android:textSize="20dp"
-                    android:layout_weight="1"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+                    android:textSize="16dp"
+                    android:layout_weight="2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
                 <android.support.v7.widget.AppCompatRatingBar
                     android:id="@+id/time_ratingbar"
                     style="?android:attr/ratingBarStyleIndicator"
+                    android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
