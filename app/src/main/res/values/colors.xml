@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="review_background">#EEEEEE</color>
+
+    <color name="ratingyellow">#FFFF00</color>
+    <color name="ratingsecondarygray">#CCCCCC</color>
+    <color name="floatingpink">#FF007F</color>
+    <color name="white">#FFFFFF</color>
 </resources>

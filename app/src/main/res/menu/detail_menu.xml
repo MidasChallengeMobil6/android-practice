@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/like"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/heart"
+        android:title="좋아요"
+        android:contentDescription="좋아요"/>
+    <item android:id="@+id/upload"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/upload"
+        android:title="공유하기"
+        android:contentDescription="공유하기"/>
+
+</menu>
